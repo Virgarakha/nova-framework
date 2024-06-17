@@ -1,0 +1,31 @@
+/* grid.scss */
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1200px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+  }
+  
+  .col {
+    flex: 1;
+    padding: 15px;
+  }
+  
+  .col-6 {
+    flex: 0 0 50%;
+  }
+  
+  .col-4 {
+    flex: 0 0 33.33%;
+  }
+  
+  .col-3 {
+    flex: 0 0 25%;
+  }
+  
